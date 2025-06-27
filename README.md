@@ -24,17 +24,17 @@ The proposed solution is valuable because...
 
 Tested on Python 3.12.7 with the following packages:
   - Jupyter v1.1.1
-  - Streamlit v1.38.0
+  - Streamlit v1.46.1
   - Seaborn v0.13.2
-  - Plotly v5.24.0
-  - Scikit-Learn v1.5.1
-  - shap v0.46.0
+  - Plotly v6.2.0
+  - Scikit-Learn v1.7.0
+  - shap v0.48.0
 
 ### Installation
 
 Run the commands below in a terminal to configure the project and install the package dependencies for the first time.
 
-If you are using Mac, you may need to follow install Xcode. Check the official Streamlit documentation [here](https://docs.streamlit.io/get-started/installation/command-line#prerequisites). 
+If you are using Mac, you may need to follow install Xcode. Check the official Streamlit documentation [here](https://docs.streamlit.io/get-started/installation/command-line#prerequisites).
 
 1. Create the environment with `python -m venv env`
 2. Activate the virtual environment for Python
