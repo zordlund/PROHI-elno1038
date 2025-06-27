@@ -21,7 +21,7 @@ _This template project will contain a simple interactive web dashboard with Stre
 
 Run the commands below in a terminal to configure the project and install the package dependencies for the first time.
 
-If you are using Mac, you may need to follow install Xcode. Check the official Streamlit documentation [here](https://docs.streamlit.io/get-started/installation/command-line#prerequisites).
+If you are using Mac, you may need to install Xcode. Check the official Streamlit documentation [here](https://docs.streamlit.io/get-started/installation/command-line#prerequisites).
 
 1. Create the environment with `python -m venv env`
 2. Activate the virtual environment for Python
