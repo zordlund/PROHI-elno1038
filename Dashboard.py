@@ -15,7 +15,7 @@ st.title("Maternal Health - Risk Factors by Age")
 st.write("# Line chart of Maternal Risk Factors by Age")
 
 # Widgets for user input
-st.sidebar.header("Filters (example)")
+st.sidebar.header("Filters")
 
 N = st.sidebar.slider("Number of data points", min_value=50, max_value=2000, value=300, step=50)
 
