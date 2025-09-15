@@ -33,8 +33,6 @@ risk_factors = rng.integers(0, 6, size=N)
 diabetes = (blood_sugar > 6.5).astype(int)
 df = pd.DataFrame({"Age": ages, "Risk Factors": risk_factors})
 
-st.subheader("Generated Data Sample")
-st.dataframe(df.head(10)) # Show first 10 rows of the dataframe
 
 df = pd.DataFrame({
     "Age": ages,
