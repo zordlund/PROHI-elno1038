@@ -5,15 +5,26 @@
 The collaborator will edit the line below in GitHub -->
 **Collaborator**: Meilia Chrisandra
 
-_Note that this file is written in **MarkDown** language. A reference is available here: <https://www.markdownguide.org/basic-syntax/>_
-
-_Here you can include images, like the logo from SU_
 
 ![Your dashboard](./assets/project-logo.jpg)
 
 ## Introduction
 
-_This template project will contain a simple interactive web dashboard with Streamlit. Feel free to edit this document as desired_
+This file contains a simple dashboard on maternal health risk factors. It is a line graph that shows avergare maternal health risks per age, for patients ages 18-45. The data was generated through numpy np.random. 
+
+### Content
+**Dashboard** Line graph showing average maternal risk factors per age (18-45 years old). Table showing the first 10 rows of data.
+**About** Section that describes the context of the project.
+
+### Widgets
+The dashboard contains three widgets for user input - one slider for numbers of data points, one for age range, and one checkbox for users who want to only view risk factors for patients with diabetes.
+
+### Screen shots
+Below are three screenshots from the dashboard. The first one shows the linegraph containing data on all patients in the dataframe, while the second shows patients with diabetes aged 30-39. The last screenshot shows the About-section that describes the project.
+
+![All patients](assets/dashboard_all.png)
+![Diabetes & 30-39 years old](assets/dashboard_diabetes.png)
+![About](assets/about.png)
 
 ## System description
 
@@ -55,4 +66,4 @@ Tested on Python 3.12.7 with the following packages:
 
 ## Contributors
 
-_Add the project's authors, contact information, and links to websites or portfolios._
+Elina Nordlund
