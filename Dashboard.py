@@ -23,6 +23,8 @@ age_range = st.sidebar.slider("Age Range", min_value=18, max_value=45, value=(18
 
 show_diabetes_only = st.sidebar.checkbox("Show Diabetes Risk Factor Only", value=False)
 
+chart_type = st.sidebar.selectbox("Chart type (demo)", ["Line", "Scatter"])
+
 # Generate synthetic data
 ages = np.random.randint(18, 46, size=10)  
 
@@ -64,7 +66,11 @@ with right:
         grouped = df_filt.groupby("Age", as_index=False)["RiskFactors"].mean()
 
         fig, ax = plt.subplots(figsize=(10, 5))
-        ax.plot(grouped["Age"], grouped["RiskFactors"], marker='o')
+        if chart_type == "Scatter":
+            ax.scatter(grouped["Age"], grouped["RiskFactors"])
+        else:
+            ax.plot(grouped["Age"], grouped["RiskFactors"], marker='o')
+
         ax.set_xlabel("Age")
         ax.set_ylabel("Average Risk Factors")
         ax.set_title("Average Maternal Risk Factors by Age")

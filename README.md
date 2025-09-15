@@ -17,7 +17,7 @@ This file contains a simple dashboard on maternal health risk factors. It is a l
 **About** Section that describes the context of the project.
 
 ### Widgets
-The dashboard contains three widgets for user input - one slider for numbers of data points, one for age range, and one checkbox for users who want to only view risk factors for patients with diabetes.
+The dashboard contains four widgets for user input - one slider for numbers of data points, one for age range, one checkbox for users who want to only view risk factors for patients with diabetes, and one drop down with option to view as a line or scatter graph.
 
 ### Screen shots
 Below are three screenshots from the dashboard. The first one shows the linegraph containing data on all patients in the dataframe, while the second shows patients with diabetes aged 30-39. The last screenshot shows the About-section that describes the project.
